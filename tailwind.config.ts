@@ -128,6 +128,10 @@ export default {
 
 
       '4xl': '2000px',
+
+      'landscape': {
+          'raw': '(orientation: landscape)'
+        },
      
     },
 
