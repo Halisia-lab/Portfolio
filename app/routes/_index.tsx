@@ -1,17 +1,13 @@
 import type { MetaFunction } from "@remix-run/node";
 import { useState } from "react";
-import { Banner } from "~/components/Banner";
-import { DescriptionBox } from "~/components/DescriptionBox";
-import { LinkedButton } from "~/components/LinkedButton";
 import { ProjectWindow } from "~/components/ProjectWindow";
-import { ScreenshotDisplayer } from "~/components/ScreenshotDisplayer";
 import { SideArrow } from "~/components/SideArrow";
 import { Project } from "~/models/project";
 
 export const meta: MetaFunction = () => {
   return [
     { title: "Portfolio" },
-    // { name: "description", content: "Welcome to Remix!" },
+    { name: "description", content: "Projects window" },
   ];
 };
 
@@ -22,15 +18,20 @@ export default function Index() {
 
   const projectsList = [towerOfHanoi, map2Place, codeup];
   const [projectListIndex, setProjectListIndex] = useState(0);
+
   return (
     <div className="bg-gradient-to-br from-cyan-500 to-sky-950 h-screen">
-    <ProjectWindow project={projectsList[projectListIndex]} />
-{projectListIndex != 0 ?  <SideArrow imageURL="images/commom/left.png" onClick={()=> setProjectListIndex((projectListIndex - 1)%projectsList.length)}/> : <span/>}
-   
-    
-{projectListIndex != projectsList.length -1 ?  <SideArrow imageURL="images/commom/right.png" onClick={()=> setProjectListIndex((projectListIndex + 1)%projectsList.length)}/> : <span/>}
-  </div>
+      <ProjectWindow project={projectsList[projectListIndex]} />
+      {
+        projectListIndex != 0 ?
+          <SideArrow imageURL="images/commom/left.png" onClick={() => setProjectListIndex((projectListIndex - 1) % projectsList.length)} />
+          : <span />
+      }
+      {
+        projectListIndex != projectsList.length - 1 ?
+          <SideArrow imageURL="images/commom/right.png" onClick={() => setProjectListIndex((projectListIndex + 1) % projectsList.length)} />
+          : <span />
+      }
+    </div>
   );
 }
-
-//creer component pour les screenshot et mettre le state de screenshot index dedans pour pouvoir changer l'image a chaque clic

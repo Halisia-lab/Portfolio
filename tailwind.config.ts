@@ -3,7 +3,36 @@ import type { Config } from "tailwindcss";
 export default {
   content: ["./app/**/{**,.client,.server}/**/*.{js,jsx,ts,tsx}"],
   theme: {
+
+    screens: {
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+
+      '3xl': '1840px',
+
+
+      '4xl': '2000px',
+
+      'landscape': {
+        'raw': '(orientation: landscape)'
+      },
+
+    },
+
     extend: {
+
       animation: {
         'fadein': 'fade-in 1s ease-in-out 0.25s 1',
         fadeout: 'fade-out 1s ease-out 0.25s 1',
@@ -102,39 +131,12 @@ export default {
           '100%': { opacity: '1', transform: 'translateX(0)' },
         },
         'zoom-in': {
-          '0%': {  transform: 'scale(1)' },
-          '50%': {  transform: 'scale(1.5)' },
-          '100%': {  transform: 'scale(1.5)' },
+          '0%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.5)' },
+          '100%': { transform: 'scale(1.5)' },
         },
       },
     },
-    screens: {
-      'sm': '640px',
-      // => @media (min-width: 640px) { ... }
-
-      'md': '768px',
-      // => @media (min-width: 768px) { ... }
-
-      'lg': '1024px',
-      // => @media (min-width: 1024px) { ... }
-
-      'xl': '1280px',
-      // => @media (min-width: 1280px) { ... }
-
-      '2xl': '1536px',
-      // => @media (min-width: 1536px) { ... }
-
-      '3xl': '1840px',
-
-
-      '4xl': '2000px',
-
-      'landscape': {
-          'raw': '(orientation: landscape)'
-        },
-     
-    },
-
   },
   plugins: [],
 } satisfies Config;
