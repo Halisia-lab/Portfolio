@@ -12,7 +12,8 @@ type ProjectProps = {
 
 export const ProjectWindow = ({ project }: ProjectProps) => {
     return (
-        <div className="bg-gradient-to-br from-cyan-500 to-sky-950 h-screen">
+        
+        <div className="bg-gradient-to-br from-cyan-500 to-sky-950 h-[150%]">
             <Banner logoPath={project.logoPath} title={project.title} />
             <div className="flex justify-center">
                 <div className="col w-3/12 space-y-10 md:relative md:flex md:row md:space-y-0 md:space-x-10 items-center md:w-3/6 xl:w-2/6 3xl:w-3/12 4xl:w-1/6 md:justify-center ">

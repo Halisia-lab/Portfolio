@@ -23,7 +23,7 @@ export default function Index() {
   const projectsList = [towerOfHanoi, map2Place, codeup];
   const [projectListIndex, setProjectListIndex] = useState(0);
   return (
-  <div>
+    <div className="bg-gradient-to-br from-cyan-500 to-sky-950 h-screen">
     <ProjectWindow project={projectsList[projectListIndex]} />
 {projectListIndex != 0 ?  <SideArrow imageURL="images/commom/left.png" onClick={()=> setProjectListIndex((projectListIndex - 1)%projectsList.length)}/> : <span/>}
    
