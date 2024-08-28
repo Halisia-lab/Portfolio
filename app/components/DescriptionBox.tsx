@@ -14,18 +14,8 @@ export const DescriptionBox = ({ description }: ProjectProps) => {
       }, [description]);
     
     return (
-        <div className={`${animate ? "animate-fadeinleft" : ""} flex-auto text-center md:text-left text-white text-xl md:text-auto font-mono lg:max-w-sm`}>
+        <div className={`${animate ? "animate-fadeinleft" : ""} flex-auto text-center md:text-left text-white text-md md:text-xl md:text-auto font-mono lg:max-w-sm`}>
             {description}
         </div>
     )
 }
-
-// export const DescriptionBox = ({ description }: ProjectProps) => {
-
-    
-//     return (
-//         <div className={`${animate ? "animate-fadeinleft" : ""} ${visible ? "" : "hidden"} flex-auto text-center md:text-left text-white text-xl md:text-auto font-mono lg:max-w-sm`}>
-//             {description}
-//         </div>
-//     )
-// }
