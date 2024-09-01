@@ -16,10 +16,10 @@ export const ProjectWindow = ({ project }: ProjectProps) => {
         <div className="bg-gradient-to-br from-cyan-500 to-sky-950 bg-cover bg-fixed">
             <Banner logoPath={project.logoPath} title={project.title} />
             <div className="flex justify-center py-5">
-                <div className="col w-3/12 space-y-10 md:relative md:flex md:row md:space-y-0 md:space-x-10 items-center md:w-3/6 xl:w-2/6 3xl:w-3/12 4xl:w-1/6 md:justify-center ">
+                <div className="col w-5/12 space-y-10 relative md:flex md:row md:space-y-0 md:space-x-10 items-center md:w-3/6 xl:w-5/12 3xl:w-4/12 4xl:w-4/12 md:justify-center ">
                     <DescriptionBox description={project.description} />
                     <ScreenshotDisplayer screenshots={project.screenshots} />
-                    <div className="md:absolute md:bottom-5 lg:bottom-10 md:left-32 lg:left-32 flex flex-col">
+                    <div className="absolute bottom-5 lg:bottom-10 -left-28 sm:right-60 md:left-32 lg:left-44 xl:left-56 flex flex-col">
                         {
                             project.googlePlayLink ?
                                 <LinkedButton link={project.googlePlayLink} imageURL="images/commom/google_play.png" />

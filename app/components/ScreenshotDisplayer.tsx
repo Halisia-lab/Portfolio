@@ -13,7 +13,7 @@ export const ScreenshotDisplayer = ({ screenshots }: ProjectProps) => {
         setAnimate(true);
         const timer = setTimeout(() => setAnimate(false), 1000);
         return () => clearTimeout(timer);
-    }, [screenshots]);
+    }, [screenshots[0]]);
 
     return (
         <div className="flex-col space-y-2">
