@@ -5,7 +5,7 @@ type ProjectProps = {
 
 export const Banner = ({ logoPath, title }: ProjectProps) => {
   return (
-    <div className="flex row p-12 items-center space-x-6">
+    <div className="flex row px-12 pt-12 items-center space-x-6">
       <img src={logoPath} className="w-14 md:w-28" />
       <div className="text-white font-bold uppercase text-md md:text-2xl">
         {title}
