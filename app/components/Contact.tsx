@@ -10,8 +10,8 @@ export const Contact = () => {
                     <img src="images/home/presentation.png" className="w-3/4 xl:justify-end" />
                 </div>
                 <div className="flex flex-col h-full justify-center space-y-10 text-lg xl:text-3xl p-14">
-                    <div className="flex flex-col space-y-2 w-3/4">
-                        <div className="font-extralight ">
+                    <div className="flex flex-col space-y-2 w-3/4 lg:w-full">
+                        <div className="font-extralight text-xl">
                             MOBILITY AVAILABILITY
                         </div>
                         <div className="font-extralight tracking-widest font-serif">
