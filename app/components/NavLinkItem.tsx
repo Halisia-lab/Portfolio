@@ -11,7 +11,7 @@ export const NavLinkItem = ({text, path, onClick}: NavLinkItemProps) => {
         <NavLink
         onClick={onClick ? ()=>onClick() : undefined}
         to={path.toString()}
-        className={"mx-5 font-bold text-gray-500"}>
+        className={"mx-5 font-medium text-gray-500"}>
         {text}
       </NavLink>
     )
