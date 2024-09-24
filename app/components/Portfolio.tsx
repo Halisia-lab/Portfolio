@@ -13,8 +13,8 @@ export const Portfolio = () => {
     return (
 
         <div id="portfolio">
-            <div className="text-3xl lg:text-[40px] font-serif my-5 lg:pt-20  px-10 ">Work</div>
-            <div className="lg:grid flex-col flex justify-center lg:flex-row lg:grid-cols-4 grid-rows-3 h-3/4 w-screen pb-16 lg:pt-20 px-20 gap-x-7 gap-y-7 text-white tracking-widest">
+            <div className="text-3xl lg:text-[40px] font-serif my-5 lg:pt-20  px-20 ">Work</div>
+            <div className="lg:grid flex-col flex justify-center lg:flex-row lg:grid-cols-4 grid-rows-3 h-3/4 w-screen pb-16 lg:pt-20 px-10 gap-x-7 gap-y-7 text-white tracking-widest">
 
                 <div className="row-span-3 overflow-clip"><img src="images/home/hanoi.png" className="h-full max-h-screen w-full lg:w-auto" /></div>
 
@@ -50,7 +50,7 @@ export const Portfolio = () => {
 
             </div>
 
-            <div className="lg:grid flex flex-col lg:flex-row lg:grid-cols-4 grid-rows-3 h-3/4 w-screen pb-16 lg:pt-20 px-20 gap-x-7 gap-y-7 text-white tracking-widest justify-center">
+            <div className="lg:grid flex flex-col lg:flex-row lg:grid-cols-4 grid-rows-3 h-3/4 w-screen pb-16 lg:pt-20 px-10 gap-x-7 gap-y-7 text-white tracking-widest justify-center">
 
                 <div className="row-span-3 overflow-clip"><img src="images/home/m2p.png" className="h-full max-h-screen w-full lg:w-auto" /></div>
 
