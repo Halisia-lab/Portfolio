@@ -1,7 +1,7 @@
 export const Contact = () => {
     return (
         <div id="contact" className="tracking-widest min-h-screen xl:h-screen w-screen flex-col flex justify-start pt-20 px-10 xl:px-20 text-gray-900">
-            <div className="text-3xl xl:text-[40px] font-serif pl-20 w-full">
+            <div className="text-3xl xl:text-[40px] font-serif w-full">
                 Work with me
             </div>
 
@@ -9,7 +9,7 @@ export const Contact = () => {
                 <div className="self-center">
                     <img src="images/home/presentation.png" className="w-3/4 xl:justify-end" />
                 </div>
-                <div className="flex flex-col h-full justify-start space-y-10 text-lg xl:text-3xl p-14">
+                <div className="flex flex-col h-full justify-start space-y-10 text-lg xl:text-3xl">
                     <div className="flex flex-col space-y-2 w-3/4 lg:w-full">
                         <div className="font-extralight text-xl">
                             MOBILITY AVAILABILITY

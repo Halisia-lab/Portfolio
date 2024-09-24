@@ -57,7 +57,7 @@ export const NavBar = () => {
                 </button>
 
                 {(sideMenuOpen || animateSideMenu) && (
-                    <div className={`${animateSideMenu ? getAnimation() : ""} lg:hidden h-screen w-2/3 bg-white fixed right-0 z-19 flex flex-col space-y-10 text-2xl pt-5 px-2`}>
+                    <div className={`${animateSideMenu ? getAnimation() : ""} lg:hidden h-screen w-2/3 bg-white fixed right-0 z-19 flex flex-col space-y-10 text-xl pt-5 px-2`}>
                         <NavLinkItem text={"Home"} path={"#home"} onClick={closeSideMenu} />
                         <NavLinkItem text={"About"} path={"#about"} onClick={closeSideMenu} />
                         <NavLinkItem text={"Background"} path={"#background"} onClick={closeSideMenu} />
