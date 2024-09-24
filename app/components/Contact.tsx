@@ -5,11 +5,11 @@ export const Contact = () => {
                 Work with me
             </div>
 
-            <div className="flex-col flex xl:flex-row h-screen my-10 w-screen xl:w-3/4 justify-center xl:justify-between mx-10 ">
+            <div className="flex-col flex xl:flex-row h-screen my-10 w-screen xl:w-3/4 justify-center xl:justify-between xl:mx-10 ">
                 <div className="self-center">
                     <img src="images/home/presentation.png" className="w-3/4 xl:justify-end" />
                 </div>
-                <div className="flex flex-col h-full justify-start space-y-10 text-lg xl:text-3xl">
+                <div className="flex flex-col h-full justify-center space-y-10 text-lg xl:text-3xl">
                     <div className="flex flex-col space-y-2 w-3/4 lg:w-full">
                         <div className="font-extralight text-xl">
                             MOBILITY AVAILABILITY
