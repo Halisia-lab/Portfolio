@@ -13,7 +13,7 @@ export const Portfolio = () => {
     return (
 
         <div id="portfolio">
-            <div className="text-3xl lg:text-[40px] font-serif my-5 lg:pt-20 px-20">Work</div>
+            <div className="text-3xl lg:text-[40px] font-serif my-5 pt-20 px-20">Work</div>
             <div className="lg:grid flex-col flex justify-center lg:flex-row lg:grid-cols-4 grid-rows-3 h-3/4 w-screen pb-16 lg:pt-20 px-10 gap-x-7 gap-y-7 text-white tracking-widest">
 
                 <div className="row-span-3 overflow-clip"><img src="images/home/hanoi.png" className="h-full max-h-screen w-full lg:w-auto" /></div>
@@ -35,8 +35,8 @@ export const Portfolio = () => {
                     <li>Flutter / Dart</li>
                     <li>Cloud Firestore</li>
                     <li>Google Play Store Deployment</li></ul></div>
-                <div className="bg-[#f6f6f6] flex flex-col justify-center">
-                    <div className="self-center flex flex-col ">
+                <div className="lg:bg-[#f6f6f6] flex flex-col justify-center">
+                    <div className="self-center flex lg:flex-col ">
                         {
                             towerOfHanoi.googlePlayLink ?
                                 <LinkedButton link={towerOfHanoi.googlePlayLink} imageURL="images/commom/google_play.png" />
@@ -61,7 +61,7 @@ export const Portfolio = () => {
                         <br />
                         I was responsible for the mobile application development, handling tasks related to data retrieval from the API and implementing the various features :<br/><br/>
           
-                        <ul className="list-disc">
+                        <ul className="list-disc px-2">
                             <li>Displaying all available parking spaces around the user's location</li>
                             <li>  Searching for parking spaces around a specific address</li>
                             <li>  Reporting available parking spaces</li>
@@ -86,8 +86,8 @@ export const Portfolio = () => {
                     <li>Google Play Store Deployment</li>
                 </ul>
                 </div>
-                <div className="bg-[#f6f6f6] flex flex-col justify-center">
-                    <div className="self-center flex flex-col ">
+                <div className="lg:bg-[#f6f6f6] flex flex-col justify-center">
+                    <div className="self-center flex lg:flex-col ">
                         {
                             map2Place.googlePlayLink ?
                                 <LinkedButton link={map2Place.googlePlayLink} imageURL="images/commom/google_play.png" />

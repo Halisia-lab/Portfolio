@@ -14,7 +14,7 @@ export const NavBar = () => {
         setOpenClicked(true);
         setTimeout(() => {
             setAnimateSideMenu(false);
-        }, 1000); 
+        }, 400); 
     };
 
      const closeSideMenu = () => {
@@ -24,7 +24,7 @@ export const NavBar = () => {
         setTimeout(() => {
             setSideMenuOpen(false); 
             setAnimateSideMenu(false); 
-        }, 900); 
+        }, 300); 
     };
 
    
@@ -34,9 +34,7 @@ export const NavBar = () => {
 
     return (
         <div>
-            <div className={`${sideMenuOpen || animateSideMenu ? "visible" : "hidden"} fixed inset-0 w-full bg-black opacity-30 lg:opacity-0 z-10 flex`}></div>
-            
-            <div className="flex justify-end py-3 text-sm w-full border-b border-b-slate-200 z-10 bg-white fixed">
+            <div className="flex justify-end py-3 text-sm w-screen border-b border-b-slate-200 z-10 bg-white fixed">
                 <div className="hidden lg:flex">
                     <NavLinkItem text={"Home"} path={"#home"} onClick={closeSideMenu} />
                     <NavLinkItem text={"About"} path={"#about"} onClick={closeSideMenu} />
@@ -55,7 +53,6 @@ export const NavBar = () => {
                         </svg>
                     )}
                 </button>
-
                 {(sideMenuOpen || animateSideMenu) && (
                     <div className={`${animateSideMenu ? getAnimation() : ""} lg:hidden h-screen w-2/3 bg-white fixed right-0 z-19 flex flex-col space-y-10 text-xl pt-5 px-2`}>
                         <NavLinkItem text={"Home"} path={"#home"} onClick={closeSideMenu} />

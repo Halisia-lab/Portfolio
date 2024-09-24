@@ -23,19 +23,13 @@ const towerOfHanoi: Project = { title: "Tower of Hanoi", description: "“The Ul
  
 
   return (
-    <div className="flex-col">
-   
-
+    <div className="flex-col overflow-x-hidden">
       <NavBar/>
-      
       <Home />  
       <About />  
       <Background />
       <Portfolio />
       <Contact />
-
-      
-
     </div>
 
   );
