@@ -42,7 +42,7 @@ export const NavBar = () => {
                     <NavLinkItem text={"About"} path={"#about"} onClick={closeSideMenu} />
                     <NavLinkItem text={"Background"} path={"#background"} onClick={closeSideMenu} />
                     <NavLinkItem text={"Portfolio"} path={"#portfolio"} onClick={closeSideMenu} />
-                    <NavLinkItem text={"Contact"} path={"#home"} onClick={closeSideMenu} />
+                    <NavLinkItem text={"Contact"} path={"#contact"} onClick={closeSideMenu} />
                 </div>
                 <button className="flex lg:hidden px-5" onClick={sideMenuOpen ? closeSideMenu : openSideMenu}>
                     {sideMenuOpen ? (
@@ -62,7 +62,7 @@ export const NavBar = () => {
                         <NavLinkItem text={"About"} path={"#about"} onClick={closeSideMenu} />
                         <NavLinkItem text={"Background"} path={"#background"} onClick={closeSideMenu} />
                         <NavLinkItem text={"Portfolio"} path={"#portfolio"} onClick={closeSideMenu} />
-                        <NavLinkItem text={"Contact"} path={"#home"} onClick={closeSideMenu} />
+                        <NavLinkItem text={"Contact"} path={"#contact"} onClick={closeSideMenu} />
                     </div>
                 )}
             </div>

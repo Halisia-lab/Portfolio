@@ -59,8 +59,8 @@ export const Portfolio = () => {
                     <div className="text-md 3xl:text-xl font-extralight py-5 self-center ">
                         <p>Map 2 Place is an academic project that I developed as part of a team of three members for a real client. The goal was to help users find parking spaces in the city of Paris.</p>
                         <br />
-                        I was responsible for the mobile application development, handling tasks related to data retrieval from the API and implementing the various features.<br />
-                        <b>Key Features:</b>
+                        I was responsible for the mobile application development, handling tasks related to data retrieval from the API and implementing the various features :<br/><br/>
+          
                         <ul className="list-disc">
                             <li>Displaying all available parking spaces around the user's location</li>
                             <li>  Searching for parking spaces around a specific address</li>

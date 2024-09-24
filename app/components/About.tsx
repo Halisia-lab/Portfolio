@@ -18,8 +18,7 @@ export const About = () => {
                     I’m passionate about creating effective and scalable solutions for both front-end and back-end needs.
                    
                 </div>
-                {/* Whether working independently or as part of a team, I’m committed to delivering high-quality results. Let’s collaborate to bring your ideas to life! */}
-            </div>
+             </div>
         </div>
     )
 }

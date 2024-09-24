@@ -25,7 +25,7 @@ export const Home = () => {
                 </div>
             </div>
             <div className="flex justify-center lg:justify-end">
-                <img src="images/home/laptop.png" className="my-4 w-11/12 lg:w-fit lg:h-screen"/>
+                <img src="images/home/laptop.png" className="mt-4 w-11/12 lg:w-2/5 lg:h-screen"/>
                 </div>
         </div>
     )

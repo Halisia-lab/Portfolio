@@ -7,6 +7,7 @@ import { ProjectWindow } from "~/components/ProjectWindow";
 import { Project } from "~/models/project";
 import { Background } from "~/components/Background";
 import { Portfolio } from "~/components/Portfolio";
+import { Contact } from "~/components/Contact";
 
 
 export const meta: MetaFunction = () => {
@@ -31,6 +32,7 @@ const towerOfHanoi: Project = { title: "Tower of Hanoi", description: "“The Ul
       <About />  
       <Background />
       <Portfolio />
+      <Contact />
 
       
 
