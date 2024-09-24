@@ -2,6 +2,10 @@ import type { MetaFunction } from "@remix-run/node";
 import { useState } from "react";
 import { NavBar } from "~/components/NavBar";
 import { Home } from "~/components/Home";
+import { About } from "~/components/About";
+import { ProjectWindow } from "~/components/ProjectWindow";
+import { Project } from "~/models/project";
+import { Background } from "~/components/Background";
 
 
 export const meta: MetaFunction = () => {
@@ -13,16 +17,20 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
 
-  return (
-    <div>
-      {/* <button onClick={() => setVisibleNote(true)} className=" bg-[#0c708c] md:bg-[#0b5874] absolute h-20 w-5 right-0 md:bottom-10 bottom-10 rounded-tl-lg rounded-bl-lg text-white text-3xl">|</button>
-      <div className={`${visibleNote ? "" : "hidden"} z-20 p-2 text-lg absolute w-7/12 bg-[#0c708c] bottom-0 md:bottom-0 right-0 h-4/12 md:h-fit rounded md:rounded-bl-xl text-white`}>
-        <div className="relative">Welcome! 👋</div> <br /><button onClick={() => setVisibleNote(false)} className="absolute top-4 right-3 w-5 "><img src="/images/commom/close.png" /></button>
-        Thank you for visiting my portfolio. This site is currently a work in progress, and I’m excited to keep building it and give you a sneak peek into my professional journey. For now, you can explore my projects, and I look forward to sharing more updates soon. <br />Your feedback is always welcome!
-      </div> */}
+const towerOfHanoi: Project = { title: "Tower of Hanoi", description: "“The Ultimate Puzzle: Can You Move the Towers?”", logoPath: "/images/tower_of_hanoi/hanoi_logo.png", githubLink: "https://github.com/Halisia-lab/Tower-of-Hanoi", googlePlayLink: "https://play.google.com/store/apps/details?id=keilis.hanoi_tower&hl=en-US&ah=7B9SDQYOygQ1hJXDiouBqdcJlFY", screenshots: ["/images/tower_of_hanoi/hanoi_picture_1.png", "/images/tower_of_hanoi/hanoi_win.png"] };
+ 
 
-      <NavBar />
-      <Home />
+  return (
+    <div className="flex-col">
+   
+
+      <NavBar/>
+      
+      <Home />  
+      <About />  
+      {/* <Background /> */}
+
+      
 
     </div>
 

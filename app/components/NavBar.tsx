@@ -1,45 +1,48 @@
 import { useState } from "react";
 import { NavLinkItem } from "./NavLinkItem"
 
+
 export const NavBar = () => {
    const [sideMenuOpen, setSideMenuOpen] = useState(false);
    const [openClicked, setOpenClicked] = useState(false);
-    const [animate, setAnimate] = useState(false);
+    const [animateSideMenu, setAnimateSideMenu] = useState(false);
+
 
     const openSideMenu = () => {
-        setAnimate(true);
+        setAnimateSideMenu(true);
         setSideMenuOpen(true);
         setOpenClicked(true);
         setTimeout(() => {
-            setAnimate(false);
+            setAnimateSideMenu(false);
         }, 1000); 
     };
 
-    const closeSideMenu = () => {
-        setAnimate(true);
-
+     const closeSideMenu = () => {
+        
+        setAnimateSideMenu(true);
         setOpenClicked(false);
         setTimeout(() => {
             setSideMenuOpen(false); 
-            setAnimate(false); 
+            setAnimateSideMenu(false); 
         }, 900); 
     };
 
+   
     const getAnimation = () => {
         return openClicked ? "animate-fadeinright" : "animate-fadeinleft";
     };
 
     return (
         <div>
-            <div className={`${sideMenuOpen || animate ? "visible" : "hidden"} fixed inset-0 w-full bg-black opacity-30 z-10 flex`}></div>
+            <div className={`${sideMenuOpen || animateSideMenu ? "visible" : "hidden"} fixed inset-0 w-full bg-black opacity-30 lg:opacity-0 z-10 flex`}></div>
             
             <div className="flex justify-end py-3 text-sm w-full border-b border-b-slate-200 z-10 bg-white fixed">
                 <div className="hidden lg:flex">
-                    <NavLinkItem text={"Home"} />
-                    <NavLinkItem text={"About"} />
-                    <NavLinkItem text={"Background"} />
-                    <NavLinkItem text={"Portfolio"} />
-                    <NavLinkItem text={"Contact"} />
+                    <NavLinkItem text={"Home"} path={"#home"} onClick={closeSideMenu} />
+                    <NavLinkItem text={"About"} path={"#about"} onClick={closeSideMenu} />
+                    <NavLinkItem text={"Background"} path={"#background"} onClick={closeSideMenu} />
+                    <NavLinkItem text={"Portfolio"} path={"#home"} onClick={closeSideMenu} />
+                    <NavLinkItem text={"Contact"} path={"#home"} onClick={closeSideMenu} />
                 </div>
                 <button className="flex lg:hidden px-5" onClick={sideMenuOpen ? closeSideMenu : openSideMenu}>
                     {sideMenuOpen ? (
@@ -53,13 +56,13 @@ export const NavBar = () => {
                     )}
                 </button>
 
-                {(sideMenuOpen || animate) && (
-                    <div className={`${animate ? getAnimation() : ""} lg:hidden h-screen w-2/3 bg-white fixed right-0 z-19 flex flex-col space-y-10 text-2xl pt-5 px-2`}>
-                        <NavLinkItem text={"Home"} />
-                        <NavLinkItem text={"About"} />
-                        <NavLinkItem text={"Background"} />
-                        <NavLinkItem text={"Portfolio"} />
-                        <NavLinkItem text={"Contact"} />
+                {(sideMenuOpen || animateSideMenu) && (
+                    <div className={`${animateSideMenu ? getAnimation() : ""} lg:hidden h-screen w-2/3 bg-white fixed right-0 z-19 flex flex-col space-y-10 text-2xl pt-5 px-2`}>
+                        <NavLinkItem text={"Home"} path={"#home"} onClick={closeSideMenu} />
+                        <NavLinkItem text={"About"} path={"#about"} onClick={closeSideMenu} />
+                        <NavLinkItem text={"Background"} path={"#background"} onClick={closeSideMenu} />
+                        <NavLinkItem text={"Portfolio"} path={"#home"} onClick={closeSideMenu} />
+                        <NavLinkItem text={"Contact"} path={"#home"} onClick={closeSideMenu} />
                     </div>
                 )}
             </div>
