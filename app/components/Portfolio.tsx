@@ -16,7 +16,7 @@ export const Portfolio = () => {
             <div className="text-3xl lg:text-[40px] font-serif my-5 lg:pt-20  px-20 ">Work</div>
             <div className="lg:grid flex-col flex justify-center lg:flex-row lg:grid-cols-4 grid-rows-3 h-3/4 w-screen pb-16 lg:pt-20 px-20 gap-x-7 gap-y-7 text-white tracking-widest">
 
-                <div className="row-span-3 overflow-clip"><img src="images/home/hanoi.png" className="h-full max-h-screen" /></div>
+                <div className="row-span-3 overflow-clip"><img src="images/home/hanoi.png" className="h-full max-h-screen w-5/6 lg:w-auto" /></div>
 
                 <div className="row-span-3 bg-[#063859] col-span-2 px-3 lg:px-14 py-10 flex flex-col items-stretch">
                     <span className="text-xl lg:text-[50px] font-serif py-5 lg:leading-[50px]">Strategic Mobile Brain Challenge</span>
@@ -52,7 +52,7 @@ export const Portfolio = () => {
 
             <div className="lg:grid flex flex-col lg:flex-row lg:grid-cols-4 grid-rows-3 h-3/4 w-screen pb-16 lg:pt-20 px-20 gap-x-7 gap-y-7 text-white tracking-widest justify-center">
 
-                <div className="row-span-3 overflow-clip"><img src="images/home/m2p.png" className="h-full max-h-screen" /></div>
+                <div className="row-span-3 overflow-clip"><img src="images/home/m2p.png" className="h-full max-h-screen w-5/6 lg:w-auto" /></div>
 
                 <div className="row-span-3 bg-[#27313e] col-span-2 px-3 lg:px-14  py-10 flex flex-col items-stretch">
                     <span className="text-xl lg:text-[40px] font-serif py-5 lg:leading-[50px]">The Mobile App for Stress-Free Parking</span>
@@ -103,42 +103,3 @@ export const Portfolio = () => {
         </div>
     )
 }
-
-{/* <div>
-<div id="portfolio"className="h-11/12">
-<Banner logoPath={towerOfHanoi.logoPath} title={towerOfHanoi.title} />
-<div className="flex py-5">
-    <div className="col w-5/12 space-y-10 relative md:flex md:row md:space-y-0 md:space-x-10 items-center md:w-3/6 xl:w-5/12 3xl:w-4/12 4xl:w-4/12 md:justify-end ">
-        <DescriptionBox description={towerOfHanoi.description} />
-        <ScreenshotDisplayer screenshots={towerOfHanoi.screenshots} />
-        <div className="absolute bottom-5 lg:bottom-10 -left-28 sm:right-60 md:left-32 lg:left-44 xl:left-56 flex flex-col">
-            {
-                towerOfHanoi.googlePlayLink ?
-                    <LinkedButton link={towerOfHanoi.googlePlayLink} imageURL="images/commom/google_play.png" />
-                    : <div></div>
-            }
-            <LinkedButton link={towerOfHanoi.githubLink} imageURL="images/commom/github.png" />
-        </div>
-    </div>
-</div>
-</div>
-<div id="portfolio"className=" h-screen">
-<Banner logoPath={map2Place.logoPath} title={map2Place.title} />
-<div className="flex justify-center py-5">
-    <div className="col w-5/12 space-y-10 relative md:flex md:row md:space-y-0 md:space-x-10 items-center md:w-3/6 xl:w-5/12 3xl:w-4/12 4xl:w-4/12 md:justify-center ">
-        <DescriptionBox description={map2Place.description} />
-        <ScreenshotDisplayer screenshots={map2Place.screenshots} />
-        <div className="absolute bottom-5 lg:bottom-10 -left-28 sm:right-60 md:left-32 lg:left-44 xl:left-56 flex flex-col">
-            {
-                map2Place.googlePlayLink ?
-                    <LinkedButton link={map2Place.googlePlayLink} imageURL="images/commom/google_play.png" />
-                    : <div></div>
-            }
-            <LinkedButton link={map2Place.githubLink} imageURL="images/commom/github.png" />
-        </div>
-    </div>
-</div>
-</div>
-</div> */}
-
-// Although the app has been removed from Google Play due to school confidentiality, it was fully deployed and functional.
