@@ -1,12 +1,12 @@
 export const Background = () => {
     return (
-        <div id="background" className="min-h-screen md:h-screen w-screen flex justify-center md:justify-start px-10 md:px-20 pt-20 pb-16 md:pt-20 text-gray-900 relative">
-           <div className="flex md:items-stretch md:space-x-20 space-y-10 md:space-y-0 w-4/5 md:w-2/3 flex-col md:flex-row ">
-            <div className="flex flex-col md:w-1/2 justify-start h-1/2 md:self-center">
-                <div className="mb-10 text-3xl md:text-[40px] font-serif mt-5 md:mt-0 md:leading-[50px]">
+        <div id="background" className="min-h-screen lg:h-screen w-screen lg:items-stretch flex justify-center lg:justify-start px-10 lg:px-20 pt-20 pb-16 lg:pt-20 text-gray-900 relative">
+           <div className="flex  lg:space-x-20 space-y-10 lg:space-y-0 w-full lg:w-2/3 flex-col lg:flex-row lg:self-center">
+            <div className="flex flex-col lg:w-1/2 justify-start ">
+                <div className="mb-10 text-3xl lg:text-[40px] font-serif mt-5 lg:mt-0 lg:leading-[50px]">
                     Background
                 </div>
-                <div className="flex text-lg font-extralight tracking-widest">
+                <div className="flex text-xl font-extralight tracking-widest">
                     <ul className="space-y-5">
                         <li>
                         <b>Freelance Web and Mobile Developer</b>, Aug. 2024 - present
@@ -29,11 +29,11 @@ export const Background = () => {
 
                 </div>
             </div>
-            <div className="flex flex-col md:w-1/2 justify-start h-1/2 pb-56 md:pb-0 z-20 md:self-center">
-            <div className="mb-10 text-3xl md:text-[40px] font-serif mt-5 md:mt-0 md:leading-[50px]">
+            <div className="flex flex-col lg:w-1/2 justify-start pb-56 lg:pb-0 z-5 ">
+            <div className="mb-10 text-3xl lg:text-[40px] font-serif mt-5 lg:mt-0 lg:leading-[50px]">
                     Expertise
                 </div>
-                <div className="flex text-lg font-extralight tracking-widest">
+                <div className="flex text-xl font-extralight tracking-widest">
                 <ul className="space-y-2 list-disc">
                     <li>
                     Turning Designs into Functional Products
@@ -57,10 +57,10 @@ export const Background = () => {
                 
             </div>
             </div>
-            <div className="md:hidden absolute bottom-0 flex inset-x-0 h-1/4">
+            <div className="lg:hidden absolute bottom-0 flex inset-x-0 h-1/4">
                     <img src="images/home/collaborations_h.png" className=" w-screen"/>
                 </div>
-            <div className="hidden md:flex absolute right-0 justify-end inset-y-0">
+            <div className="hidden lg:flex absolute right-0 justify-end inset-y-0">
                     <img src="images/home/collaborations.png" className=""/>
                 </div>
         </div>
