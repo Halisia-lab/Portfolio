@@ -29,7 +29,7 @@ export const Background = () => {
 
                 </div>
             </div>
-            <div className="flex flex-col lg:w-1/2 justify-start pb-56 lg:pb-0 z-5 ">
+            <div className="flex flex-col lg:w-1/2 justify-start pb-64 lg:pb-0 z-5 ">
             <div className="mb-10 text-3xl lg:text-[40px] font-serif mt-5 lg:mt-0 lg:leading-[50px]">
                     Expertise
                 </div>
