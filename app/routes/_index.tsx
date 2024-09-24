@@ -28,7 +28,7 @@ const towerOfHanoi: Project = { title: "Tower of Hanoi", description: "“The Ul
       
       <Home />  
       <About />  
-      {/* <Background /> */}
+      <Background />
 
       
 

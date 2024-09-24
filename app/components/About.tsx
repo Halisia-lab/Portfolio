@@ -1,8 +1,8 @@
 export const About = () => {
     return (
-        <div id="about" className="min-h-screen md:h-screen w-screen flex-col md:flex-row flex justify-center px-10 md:px-20 pt-5 md:pt-20 text-gray-900">
+        <div id="about" className="min-h-screen md:h-screen w-screen flex-col md:flex-row flex justify-center px-10 md:px-20 pt-20 pb-10  md:pt-20 text-gray-900">
             <div className="flex flex-col md:w-1/2 justify-between h-4/5">
-                <div className="flex font-extralighttext-2xl w-full tracking-widest">
+                <div className="flex font-extralight text-2xl w-full tracking-widest">
                     BIO
                 </div>
                 <div className="justify-center flex md:justify-start">
