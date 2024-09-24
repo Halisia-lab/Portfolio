@@ -57,10 +57,10 @@ export const Background = () => {
                 
             </div>
             </div>
-            <div className="lg:hidden absolute bottom-0 flex inset-x-0 h-1/4">
+            <div className="lg:hidden absolute bottom-0 flex inset-x-0 h-1/4 pb-10">
                     <img src="images/home/collaborations_h.png" className=" w-screen"/>
                 </div>
-            <div className="hidden lg:flex absolute right-0 justify-end inset-y-0">
+            <div className="hidden lg:flex absolute right-0 justify-end inset-y-0 pb-10">
                     <img src="images/home/collaborations.png" className=""/>
                 </div>
         </div>
