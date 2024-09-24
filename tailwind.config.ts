@@ -46,7 +46,7 @@ export default {
         fadeinbounceup: 'fade-in-bounceup 1s ease-in-out 0.25s 1',
         fadeinbounceright: 'fade-in-bounce-right 1s ease-in-out 0.25s 1',
         fadeinbounceleft: 'fade-in-bounce-left 1s ease-in-out 0.25s 1',
-        fadeinright: 'fade-in-right 1s ease-in-out 0.25s 1',
+        'fadeinright': 'fade-in-right 1s ease-in-out 0s 1',
         fadeinup: 'fade-in-up 1s ease-in-out 0.25s 1',
         fadeoutdown: 'fade-out-down 1s ease-in-out 0.25s 1',
         fadeouttopleft: 'fade-out-top-left 1s ease-in-out 0.25s 1',
@@ -127,7 +127,11 @@ export default {
       },
       keyframes: {
         'fade-in-left': {
-          '0%': { opacity: '0', transform: 'translateX(-100%)' },
+          '0%': { opacity: '1', transform: 'translateX(0%)' },
+          '100%': { opacity: '0', transform: 'translateX(100%)' },
+        },
+        'fade-in-right': {
+          '0%': { opacity: '0', transform: 'translateX(100%)' },
           '100%': { opacity: '1', transform: 'translateX(0)' },
         },
         'zoom-in': {
