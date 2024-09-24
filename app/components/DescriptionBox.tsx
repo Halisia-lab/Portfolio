@@ -14,7 +14,7 @@ export const DescriptionBox = ({ description }: ProjectProps) => {
     }, [description]);
 
     return (
-        <div className={`${animate ? "animate-fadeinleft" : ""} flex-auto text-center md:text-left text-white text-sm  md:text-2xl font-mono md:w-4/5`}>
+        <div className={`${animate ? "animate-fadeinleft" : ""} flex-auto text-center md:text-left text-sm  md:text-2xl font-mono md:w-4/5`}>
             {description}
         </div>
     )
