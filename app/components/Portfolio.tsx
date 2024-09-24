@@ -16,7 +16,7 @@ export const Portfolio = () => {
             <div className="text-3xl lg:text-[40px] font-serif my-5 lg:pt-20  px-20 ">Work</div>
             <div className="lg:grid flex-col flex justify-center lg:flex-row lg:grid-cols-4 grid-rows-3 h-3/4 w-screen pb-16 lg:pt-20 px-20 gap-x-7 gap-y-7 text-white tracking-widest">
 
-                <div className="row-span-3 overflow-clip"><img src="images/home/hanoi.png" className="h-full max-h-4/5 lg:max-h-full" /></div>
+                <div className="row-span-3 overflow-clip"><img src="images/home/hanoi.png" className="h-full max-h-5/6" /></div>
 
                 <div className="row-span-3 bg-[#063859] col-span-2 px-3 lg:px-14 py-10 flex flex-col items-stretch">
                     <span className="text-xl lg:text-[50px] font-serif py-5 lg:leading-[50px]">Strategic Mobile Brain Challenge</span>
@@ -52,7 +52,7 @@ export const Portfolio = () => {
 
             <div className="lg:grid flex flex-col lg:flex-row lg:grid-cols-4 grid-rows-3 h-3/4 w-screen pb-16 lg:pt-20 px-20 gap-x-7 gap-y-7 text-white tracking-widest justify-center">
 
-                <div className="row-span-3 overflow-clip"><img src="images/home/m2p.png" className="h-full max-h-4/5 lg:max-h-full" /></div>
+                <div className="row-span-3 overflow-clip"><img src="images/home/m2p.png" className="h-full max-h-5/6" /></div>
 
                 <div className="row-span-3 bg-[#27313e] col-span-2 px-3 lg:px-14  py-10 flex flex-col items-stretch">
                     <span className="text-xl lg:text-[40px] font-serif py-5 lg:leading-[50px]">The Mobile App for Stress-Free Parking</span>
