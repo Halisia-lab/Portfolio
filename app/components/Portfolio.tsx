@@ -18,7 +18,7 @@ export const Portfolio = () => {
 
                 <div className="row-span-3 overflow-clip"><img src="images/home/hanoi.png" className="h-full " /></div>
 
-                <div className="row-span-3 bg-[#063859] col-span-2 px-14 py-10 flex flex-col items-stretch">
+                <div className="row-span-3 bg-[#063859] col-span-2 px-3 lg:px-14 py-10 flex flex-col items-stretch">
                     <span className="text-xl lg:text-[50px] font-serif py-5 lg:leading-[50px]">Strategic Mobile Brain Challenge</span>
                     <div className="text-lg 3xl:text-xl font-extralight py-5 self-center ">
                         <p>Tower of Hanoi is a personal project that I am currently developing to diversify my portfolio of mobile applications.</p>
@@ -54,7 +54,7 @@ export const Portfolio = () => {
 
                 <div className="row-span-3 overflow-clip"><img src="images/home/m2p.png" className="h-full" /></div>
 
-                <div className="row-span-3 bg-[#27313e] col-span-2 px-14 py-10 flex flex-col items-stretch">
+                <div className="row-span-3 bg-[#27313e] col-span-2 px-3 lg:px-14  py-10 flex flex-col items-stretch">
                     <span className="text-xl lg:text-[40px] font-serif py-5 lg:leading-[50px]">The Mobile App for Stress-Free Parking</span>
                     <div className="text-md 3xl:text-xl font-extralight py-5 self-center ">
                         <p>Map 2 Place is an academic project that I developed as part of a team of three members for a real client. The goal was to help users find parking spaces in the city of Paris.</p>
