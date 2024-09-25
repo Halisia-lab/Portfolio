@@ -6,7 +6,7 @@ export const About = () => {
                     BIO
                 </div>
                 <div className="justify-center flex md:justify-start">
-                    <img src="images/home/presentation.png" className="w-3/4 md:w-3/5" />
+                    <img src="images/home/presentation.png" className="w-3/4 md:w-3/5 m-14 md:m-0" />
                 </div>
             </div>
             <div className="flex flex-col md:w-1/2 justify-between h-1/2 ">
@@ -14,8 +14,8 @@ export const About = () => {
                     I am a freelance Web and Mobile Developer
                 </div>
                 <div className="flex text-xl font-extralight tracking-widest">
-                    I’m a freelance full-stack developer with experience across various projects, from startups to large corporations. <br /><br />
-                    I’m passionate about creating effective and scalable solutions for both front-end and back-end needs.
+                    I am a full-stack developer with experience across various projects, from startups to large corporations. <br /><br />
+                    I am passionate about creating effective and scalable solutions for both front-end and back-end needs.
                    
                 </div>
              </div>
