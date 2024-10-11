@@ -19,7 +19,7 @@ export const Contact = () => {
                         PHONE
                     </div>
                     <div className="flex font-extralight tracking-widest font-serif">
-                        {" +336 77 86 08 24"}
+                        {" +33 6 77 86 08 24"}
                     </div>
                 </div>
                 <div className="flex-col space-y-2">

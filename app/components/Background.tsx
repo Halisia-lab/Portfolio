@@ -42,7 +42,7 @@ export const Background = () => {
                        Full-Stack Web Development
                         </li>
                         <li>
-                       Cross-platform Mobile Develpment
+                       Cross-platform Mobile Development    
                         </li>
                         <li>
                         AWS Cloud Deployment
