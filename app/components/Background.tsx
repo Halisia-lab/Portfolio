@@ -11,16 +11,20 @@ export const Background = () => {
                         
                         <li>
                         <b>Sanofi</b><br/>
-                        Full Stack Developer, Sept. 2022 - Sept 2023
+                        Full Stack Developer, Sept. 2022 - Sept. 2023
                         </li>
                         <li>
                         <b>Sanofi</b><br/>
-                        Mobile Application Projects Manager, Sept. 2020 - Sept 2022
+                        Mobile Application Projects Manager, Sept. 2020 - Sept. 2022
+                        </li>
+                        <li>
+                        <b>KTM Advance</b><br/>
+                        Front end Web Developer, June 2019 - Dec. 2019
                         </li>
                         <br/>
                         <li>
-                        <b>ESGI</b>, 2021-2023<br/>
-                        MS Software Architecture
+                        <b>Education</b><br/>
+                        MS Software Architecture, 2021-2023
                         </li>
                     </ul>
                   
