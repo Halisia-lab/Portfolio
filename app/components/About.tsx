@@ -11,7 +11,7 @@ export const About = () => {
             </div>
             <div className="flex flex-col md:w-1/2 justify-between h-1/2 ">
                 <div className="mb-10 text-3xl md:text-[40px] font-serif mt-5 md:mt-0 md:leading-[50px]">
-                    I am a freelance Web and Mobile Developer
+                    I am a Web and Mobile Developer
                 </div>
                 <div className="flex text-xl font-extralight tracking-widest">
                     I am a full-stack developer with experience across various projects, from startups to large corporations. <br /><br />

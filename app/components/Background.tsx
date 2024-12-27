@@ -8,9 +8,7 @@ export const Background = () => {
                 </div>
                 <div className="flex text-xl font-extralight tracking-widest">
                     <ul className="space-y-5">
-                        <li>
-                        <b>Freelance Web and Mobile Developer</b>, Aug. 2024 - present
-                        </li>
+                        
                         <li>
                         <b>Sanofi</b><br/>
                         Full Stack Developer, Sept. 2022 - Sept 2023
