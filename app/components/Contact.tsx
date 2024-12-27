@@ -10,7 +10,18 @@ export const Contact = () => {
                         MOBILITY AVAILABILITY
                     </div>
                     <div className="font-extralight tracking-widest font-serif">
-                        Ile-de-France, France
+                    <ul className="space-y-0">
+                        
+                        <li>
+                        🇫🇷 Ile-de-France, Bordeaux
+                        </li>
+                        <li>
+                        🇨🇭 Genève, Lausanne
+                        </li>
+                        <li>
+                        🇬🇧 Birmingham
+                        </li>
+                    </ul>
 
                     </div>
                 </div>
