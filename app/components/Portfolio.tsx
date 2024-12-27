@@ -28,6 +28,7 @@ export const Portfolio = () => {
                         <br />
                         It was a project that they had to build in the past. I was in charge of imagine and create an interface which would be used by the biomedical team.
                         <br/><br />
+                    
                         Among the different tasks, I had to :<br />
 
                         <ul className="list-disc px-2">
@@ -37,8 +38,10 @@ export const Portfolio = () => {
                             <li>  Create the database</li>
                             <li>Develop the client side</li>
                         </ul><br />
+                       
                         The feedback was very positive. I was ranked in the top 3 and my version was pretty similar with how they had done it. <br/><br />
-                        It was a very formative experience. Indeed, I enjoyed the way to translate a specific need in the medical field in a intuitive product for final users.
+                        It was a very formative experience. Indeed, I enjoyed the way to translate a specific need in the medical field in a intuitive product for final users.<br/><br/>
+                        <b>You can explore the different features by watching the demo ! </b>
                     
                     </div>
 
