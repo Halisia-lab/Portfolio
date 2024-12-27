@@ -32,7 +32,6 @@ export const Portfolio = () => {
                         Among the different tasks, I had to :<br />
 
                         <ul className="list-disc px-2">
-                            <li>Displaying all available parking spaces around the user's location</li>
                             <li>  Choose the design and technologies </li>
                             <li>  Create the API</li>
                             <li>  Create the database</li>
