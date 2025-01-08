@@ -24,12 +24,11 @@ export const Portfolio = () => {
                     <span className="text-lg lg:text-[30px] font-serif py-5 lg:leading-[50px]">{mouseOrganoids.description}</span>
                     <div className="text-sm 3xl:text-lg font-extralight py-5 self-center ">
 
-                        <p>Mouse Organoids is a project which I had the opportunity to work on for an interview test for a company.</p>
+                        <p>Mouse Organoids is a project which I had the opportunity to work on for an interview test for a company.
+                        Organoids are miniature, three-dimensional structures grown in the lab that mimic certain aspects of real organs.</p>
                         <br />
 
                         <b>Context </b>
-                        <p>Organoids are miniature, three-dimensional structures grown in the lab that mimic certain aspects of real organs. They are created to replicate some of the features and functions of a specific organ.</p>
-
                         <p>
                             As part of the analysis of biomedical images, the superposition of images with segmentations allows the identification and analysis of biological structures such as cells.
                             This project provide an useful tool for searchers working on organoids, allowing them to quickly visualise and analyse the images from their samples.
@@ -47,19 +46,15 @@ export const Portfolio = () => {
                             <li>  Develop the API to retrieve and manage the data of organoids</li>
                             <li>  Create dynamical and interactive components for the displaying of images</li>
                             <li>  Calculate the constrast and brightness for each image to improve the visualisation and save the choosen settings in the database</li>
-                            <li>  Write the documentation and installation instructions</li>
                         </ul>
-
-                        The feedback was very positive. I was ranked in the top 3 and my version was similar to the one they had built. <br /><br />
+                        <br />
+                        The feedback was very positive. I was ranked in the top 3 and my version was similar to the one they had built. <br />
                         It was a very formative experience. Indeed, I enjoyed the way I translated a specific need in the medical field into an intuitive product for final users.<br /><br />
                         <b>You can explore the different features by watching the demo ! </b>
-
                     </div>
-
-
                 </div>
 
-                <div className="bg-white flex justify-center border"><img src={mouseOrganoids.logoPath} className="self-center h-52" /></div>
+                <div className="bg-white flex justify-center border"><img src={mouseOrganoids.logoPath} className="self-center h-52 " /></div>
                 <div className="bg-[#27313e] flex justify-center p-2"><ul className="self-center text-lg font-extralight text-center">
                     <li>React</li>
                     <li>Tailwind CSS</li>
