@@ -61,7 +61,7 @@ export const Background = () => {
                         Expertise
                     </div>
                     <div className="flex text-xl font-extralight tracking-widest bg-slate-950 text-white w-fit p-6">
-                        <ul className="space-y-2 list-disc">
+                        <ul className="space-y-2">
                             <li>
                                 Turning Designs into Functional Products
                             </li>
