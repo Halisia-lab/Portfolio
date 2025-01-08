@@ -22,18 +22,16 @@ export const Portfolio = () => {
                 <div className="row-span-3 bg-[#d3d3d3] col-span-2 px-3 lg:px-14  py-10 flex flex-col items-stretch text-gray-800">
                     <span className="text-lg lg:text-[30px] font-serif py-5 lg:leading-[50px]">{mouseOrganoids.description}</span>
                     <div className="text-sm 3xl:text-lg font-extralight py-5 self-center ">
-                        <p>
-                            Mouse Organoids is a project which I had the opportunity to work on for an interview test for a company.
-                            Organoids are miniature, three-dimensional structures grown in the lab that mimic certain aspects of real organs.
-                        </p><br />
-
                         <b>Context </b>
                         <p>
                             As part of the analysis of biomedical images, the superposition of images with segmentations allows the identification and analysis of biological structures such as cells.
-                            This project provide an useful tool for searchers working on organoids, allowing them to quickly visualise and analyse the images from their samples.
+                            This project provides a useful tool for researchers working on organoids, allowing them to quickly visualise and analyse the images from their samples.
                         </p> <br />
-                        It was a project that they had to build in the past and I was in charge of imagining and creating an interface which would be used by the biomedical team.<br />
-
+                        <p>
+                            Mouse Organoids is a project which I had the opportunity to work on for an interview test for a company.
+                            Organoids are miniature, three-dimensional structures grown in the lab that mimic certain aspects of real organs.
+                        </p>
+                        It was a project that they had built in the past and I was in charge of imagining and creating an interface which would have been used by the biomedical team at that time.<br /><br/>
                         Among the different tasks, I had to :<br />
 
                         <ul className="list-disc px-2">

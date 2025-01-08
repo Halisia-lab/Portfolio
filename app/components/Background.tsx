@@ -32,7 +32,7 @@ export const Background = () => {
                                     I created a project managing all Sanofi applications
                                 </p><br />
                                 <ul className="list-disc">
-                                    <li>Redacted the user stories</li>
+                                    <li>Contributed to the definition of user stories</li>
                                     <li>Developed an API to retrieve application metrics (KPI)</li>
                                     <li>Created the mobile wireframes</li>
                                     <li>Developed mobile functionalities</li>
