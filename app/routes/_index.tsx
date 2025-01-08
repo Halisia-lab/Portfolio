@@ -1,9 +1,7 @@
 import type { MetaFunction } from "@remix-run/node";
-import { useState } from "react";
 import { NavBar } from "~/components/NavBar";
 import { Home } from "~/components/Home";
 import { About } from "~/components/About";
-import { ProjectWindow } from "~/components/ProjectWindow";
 import { Project } from "~/models/project";
 import { Background } from "~/components/Background";
 import { Portfolio } from "~/components/Portfolio";

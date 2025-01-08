@@ -1,8 +1,5 @@
 import { Project } from "~/models/project"
-import { Banner } from "./Banner"
-import { DescriptionBox } from "./DescriptionBox"
 import { LinkedButton } from "./LinkedButton"
-import { ScreenshotDisplayer } from "./ScreenshotDisplayer"
 
 export const Portfolio = () => {
 
@@ -18,24 +15,24 @@ export const Portfolio = () => {
             {/*  ORGANOIDS  */}
             <div className="lg:grid flex flex-col lg:flex-row lg:grid-cols-4 grid-rows-3 h-3/4 w-screen pb-16 lg:pt-20 px-10 gap-x-7 gap-y-7 text-white tracking-widest justify-center">
 
-                <div className="row-span-3 overflow-clip"><img src="images/home/organoids.png" className="h-full max-h-screen w-full lg:w-auto" /></div>
+                <div className="row-span-3 overflow-clip">
+                    <img src="images/home/organoids.png" className="h-full max-h-screen w-full lg:w-auto" />
+                </div>
 
                 <div className="row-span-3 bg-[#d3d3d3] col-span-2 px-3 lg:px-14  py-10 flex flex-col items-stretch text-gray-800">
                     <span className="text-lg lg:text-[30px] font-serif py-5 lg:leading-[50px]">{mouseOrganoids.description}</span>
                     <div className="text-sm 3xl:text-lg font-extralight py-5 self-center ">
-
-                        <p>Mouse Organoids is a project which I had the opportunity to work on for an interview test for a company.
-                        Organoids are miniature, three-dimensional structures grown in the lab that mimic certain aspects of real organs.</p>
-                        <br />
+                        <p>
+                            Mouse Organoids is a project which I had the opportunity to work on for an interview test for a company.
+                            Organoids are miniature, three-dimensional structures grown in the lab that mimic certain aspects of real organs.
+                        </p><br />
 
                         <b>Context </b>
                         <p>
                             As part of the analysis of biomedical images, the superposition of images with segmentations allows the identification and analysis of biological structures such as cells.
                             This project provide an useful tool for searchers working on organoids, allowing them to quickly visualise and analyse the images from their samples.
-                        </p>
-                        <br />
-                        It was a project that they had to build in the past and I was in charge of imagining and creating an interface which would be used by the biomedical team.
-                        <br />
+                        </p> <br />
+                        It was a project that they had to build in the past and I was in charge of imagining and creating an interface which would be used by the biomedical team.<br />
 
                         Among the different tasks, I had to :<br />
 
@@ -46,23 +43,26 @@ export const Portfolio = () => {
                             <li>  Develop the API to retrieve and manage the data of organoids</li>
                             <li>  Create dynamical and interactive components for the displaying of images</li>
                             <li>  Calculate the constrast and brightness for each image to improve the visualisation and save the choosen settings in the database</li>
-                        </ul>
-                        <br />
+                        </ul><br />
                         The feedback was very positive. I was ranked in the top 3 and my version was similar to the one they had built. <br />
                         It was a very formative experience. Indeed, I enjoyed the way I translated a specific need in the medical field into an intuitive product for final users.<br /><br />
-                        <b>You can explore the different features by watching the demo ! </b>
+                        <b>You can explore the different features by watching the demo !</b>
                     </div>
                 </div>
 
-                <div className="bg-white flex justify-center border"><img src={mouseOrganoids.logoPath} className="self-center h-52 " /></div>
-                <div className="bg-[#27313e] flex justify-center p-2"><ul className="self-center text-lg font-extralight text-center">
-                    <li>React</li>
-                    <li>Tailwind CSS</li>
-                    <li>Node.js / Express</li>
-                    <li>PostgreSQL</li>
-                    <li>Amazon S3</li>
-                </ul>
+                <div className="bg-white flex justify-center border">
+                    <img src={mouseOrganoids.logoPath} className="self-center h-52 " />
                 </div>
+                <div className="bg-[#27313e] flex justify-center p-2">
+                    <ul className="self-center text-lg font-extralight text-center">
+                        <li>React</li>
+                        <li>Tailwind CSS</li>
+                        <li>Node.js / Express</li>
+                        <li>PostgreSQL</li>
+                        <li>Amazon S3</li>
+                    </ul>
+                </div>
+
                 <div className="lg:bg-[#f6f6f6] flex flex-col justify-center">
                     <div className="self-center flex lg:flex-col ">
                         {
@@ -86,7 +86,9 @@ export const Portfolio = () => {
             {/*  TOWER OF HANOI */}
             <div className="lg:grid flex-col flex justify-center lg:flex-row lg:grid-cols-4 grid-rows-3 h-3/4 w-screen pb-16 lg:pt-20 px-10 gap-x-7 gap-y-7 text-white tracking-widest">
 
-                <div className="row-span-3 overflow-clip"><img src="images/home/hanoi.png" className="h-full max-h-screen w-full lg:w-auto" /></div>
+                <div className="row-span-3 overflow-clip">
+                    <img src="images/home/hanoi.png" className="h-full max-h-screen w-full lg:w-auto" />
+                </div>
 
                 <div className="row-span-3 bg-[#063859] col-span-2 px-3 lg:px-14 py-10 flex flex-col items-stretch">
                     <span className="text-xl lg:text-[50px] font-serif py-5 lg:leading-[50px]">Strategic Mobile Brain Challenge</span>
@@ -100,11 +102,17 @@ export const Portfolio = () => {
 
                 </div>
 
-                <div className="bg-[#eee6cc] flex justify-center"><img src="images/tower_of_hanoi/hanoi_logo.png" className="self-center h-52" /></div>
-                <div className="bg-[#27313e] flex justify-center p-2"><ul className="self-center text-lg font-extralight text-center">
-                    <li>Flutter / Dart</li>
-                    <li>Cloud Firestore</li>
-                    <li>Google Play Store Deployment</li></ul></div>
+                <div className="bg-[#eee6cc] flex justify-center">
+                    <img src="images/tower_of_hanoi/hanoi_logo.png" className="self-center h-52" />
+                </div>
+                <div className="bg-[#27313e] flex justify-center p-2">
+                    <ul className="self-center text-lg font-extralight text-center">
+                        <li>Flutter / Dart</li>
+                        <li>Cloud Firestore</li>
+                        <li>Google Play Store Deployment</li>
+                    </ul>
+                </div>
+
                 <div className="lg:bg-[#f6f6f6] flex flex-col justify-center">
                     <div className="self-center flex lg:flex-col ">
                         {
@@ -120,13 +128,16 @@ export const Portfolio = () => {
             {/*  MAP 2 PLACE  */}
             <div className="lg:grid flex flex-col lg:flex-row lg:grid-cols-4 grid-rows-3 h-3/4 w-screen pb-16 lg:pt-20 px-10 gap-x-7 gap-y-7 text-white tracking-widest justify-center">
 
-                <div className="row-span-3 overflow-clip"><img src="images/home/m2p.png" className="h-full max-h-screen w-full lg:w-auto" /></div>
+                <div className="row-span-3 overflow-clip">
+                    <img src="images/home/m2p.png" className="h-full max-h-screen w-full lg:w-auto" />
+                </div>
 
                 <div className="row-span-3 bg-[#27313e] col-span-2 px-3 lg:px-14  py-10 flex flex-col items-stretch">
                     <span className="text-xl lg:text-[40px] font-serif py-5 lg:leading-[50px]">The Mobile App for Stress-Free Parking</span>
                     <div className="text-md 3xl:text-xl font-extralight py-5 self-center ">
-                        <p>Map 2 Place is an academic project that I developed as part of a team of three members for a real client. The goal was to help users find parking spaces in the city of Paris.</p>
-                        <br />
+                        <p>
+                            Map 2 Place is an academic project that I developed as part of a team of three members for a real client. The goal was to help users find parking spaces in the city of Paris.
+                        </p><br />
                         I was responsible for the mobile application development, handling tasks related to data retrieval from the API and implementing the various features :<br />
 
                         <ul className="list-disc px-2">
@@ -137,21 +148,21 @@ export const Portfolio = () => {
                             <li>Earning points to increase the user’s level</li>
                             <li> Advanced features for premium or users with higher levels</li>
                         </ul><br />
-
-
                         Although the app has been removed from Google Play due to school confidentiality, it was fully deployed and functional.
                         Given the challenge of parking in Paris, this concept could be quite useful.
                     </div>
-
                 </div>
 
-                <div className="bg-white flex justify-center border"><img src="images/map_2_place/m2p_logo.png" className="self-center h-52" /></div>
-                <div className="bg-[#27313e] flex justify-center p-2"><ul className="self-center text-lg font-extralight text-center">
-                    <li>Flutter / Dart</li>
-                    <li>Google Maps API</li>
-                    <li>Geolocation</li>
-                    <li>Google Play Store Deployment</li>
-                </ul>
+                <div className="bg-white flex justify-center border">
+                    <img src="images/map_2_place/m2p_logo.png" className="self-center h-52" />
+                </div>
+                <div className="bg-[#27313e] flex justify-center p-2">
+                    <ul className="self-center text-lg font-extralight text-center">
+                        <li>Flutter / Dart</li>
+                        <li>Google Maps API</li>
+                        <li>Geolocation</li>
+                        <li>Google Play Store Deployment</li>
+                    </ul>
                 </div>
                 <div className="lg:bg-[#f6f6f6] flex flex-col justify-center">
                     <div className="self-center flex lg:flex-col ">
@@ -164,9 +175,6 @@ export const Portfolio = () => {
                     </div>
                 </div>
             </div>
-
-
-
         </div>
     )
 }

@@ -10,12 +10,12 @@ export const Background = () => {
                         <ul className="space-y-5">
 
                             <li className="bg-slate-50 p-6">
-                                <b className="text-xl">Sanofi |
-                                    Full Stack Developer,</b>  <br />Sept. 2022 - Sept. 2023
-                                <br /><br />
-                                <p>I developed a web application managing the professional needs of Sanofi
-                                    employees</p><br />
-
+                                <b className="text-xl">Sanofi | Full Stack Developer,</b><br />
+                                Sept. 2022 - Sept. 2023 <br /><br />
+                                <p>
+                                    I developed a web application managing the professional needs of Sanofi
+                                    employees
+                                </p><br />
                                 <ul className="list-disc">
                                     <li>Used the agile methodology (Scrum)</li>
                                     <li>Developed Front and Back functionalities</li>
@@ -26,10 +26,11 @@ export const Background = () => {
                             </li>
 
                             <li className="bg-slate-50 p-6">
-                                <b className="text-xl">Sanofi |
-                                    Mobile Application Projects Manager,</b>  <br />Sept. 2020 - Sept. 2022
-                                <br /><br />
-                                <p>I created a project managing all Sanofi applications</p><br />
+                                <b className="text-xl">Sanofi | Mobile Application Projects Manager,</b><br />
+                                Sept. 2020 - Sept. 2022 <br /><br />
+                                <p>
+                                    I created a project managing all Sanofi applications
+                                </p><br />
                                 <ul className="list-disc">
                                     <li>Redacted the user stories</li>
                                     <li>Developed an API to retrieve application metrics (KPI)</li>
@@ -41,19 +42,18 @@ export const Background = () => {
 
                             </li>
                             <li className="bg-slate-50 p-6">
-                                <b className="text-xl">KTM Advance |
-                                Front end Web Developer,</b>  <br />June 2019 - Dec. 2019
-                                <br /><br />
-                                <p>I developed a project with RATP for the learning of train (RER) drivers</p><br />
+                                <b className="text-xl">KTM Advance | Front end Web Developer,</b><br />
+                                June 2019 - Dec. 2019 <br /><br />
+                                <p>
+                                    I developed a project with RATP for the learning of train (RER) drivers
+                                </p><br />
                                 <ul className="list-disc">
                                     <li>Analysed the operating manual of the train controls for the programmation</li>
                                     <li>Developed the interface illustrating the steps done by a driver</li>
                                 </ul>
                             </li>
-                            
+
                         </ul>
-
-
                     </div>
                 </div>
                 <div className="flex flex-col lg:w-1/2 justify-start lg:pb-0 z-5 ">
@@ -77,11 +77,8 @@ export const Background = () => {
                             <li>
                                 Experienced in Agile Practices
                             </li>
-
-
                         </ul>
                     </div>
-                    
                 </div>
             </div>
             {/* <div className="lg:hidden absolute bottom-0 flex inset-x-0 h-1/4 pb-10">
