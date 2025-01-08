@@ -1,6 +1,6 @@
 export const Contact = () => {
     return (
-        <div id="contact" className="tracking-widest min-h-screen h-screen w-screen flex-col flex pt-20 px-10 xl:px-20 text-gray-900">
+        <div id="contact" className="tracking-widest h-screen w-screen flex-col flex pt-20 px-10 xl:px-20 text-gray-900">
             <div className="text-3xl xl:text-[40px] font-serif w-full">
                 Work with me
             </div>

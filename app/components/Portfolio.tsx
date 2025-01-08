@@ -12,8 +12,8 @@ export const Portfolio = () => {
 
     return (
 
-        <div id="portfolio">
-            <div className="text-3xl lg:text-[40px] font-serif my-5 pt-20 px-20">Work</div>
+        <div id="portfolio" className="min-h-screen h-full w-screen ">
+            <div className="text-3xl lg:text-[40px] font-serif my-5 pt-20 px-20">Portfolio</div>
 
             {/*  ORGANOIDS  */}
             <div className="lg:grid flex flex-col lg:flex-row lg:grid-cols-4 grid-rows-3 h-3/4 w-screen pb-16 lg:pt-20 px-10 gap-x-7 gap-y-7 text-white tracking-widest justify-center">
