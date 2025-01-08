@@ -27,17 +27,16 @@ export const Portfolio = () => {
                         <p>Mouse Organoids is a project which I had the opportunity to work on for an interview test for a company.</p>
                         <br />
 
-                        <b>What are Organoids ? </b>
+                        <b>Context </b>
                         <p>Organoids are miniature, three-dimensional structures grown in the lab that mimic certain aspects of real organs. They are created to replicate some of the features and functions of a specific organ.</p>
-                        <br />
-                        <b>The goal of this project</b>
+
                         <p>
                             As part of the analysis of biomedical images, the superposition of images with segmentations allows the identification and analysis of biological structures such as cells.
                             This project provide an useful tool for searchers working on organoids, allowing them to quickly visualise and analyse the images from their samples.
                         </p>
                         <br />
                         It was a project that they had to build in the past and I was in charge of imagining and creating an interface which would be used by the biomedical team.
-                        <br /><br />
+                        <br />
 
                         Among the different tasks, I had to :<br />
 
