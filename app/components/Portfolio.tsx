@@ -21,8 +21,8 @@ export const Portfolio = () => {
                 <div className="row-span-3 overflow-clip"><img src="images/home/organoids.png" className="h-full max-h-screen w-full lg:w-auto" /></div>
 
                 <div className="row-span-3 bg-[#d3d3d3] col-span-2 px-3 lg:px-14  py-10 flex flex-col items-stretch text-gray-800">
-                    <span className="text-xl lg:text-[40px] font-serif py-5 lg:leading-[50px]">{mouseOrganoids.description}</span>
-                    <div className="text-md 3xl:text-xl font-extralight py-5 self-center ">
+                    <span className="text-lg lg:text-[30px] font-serif py-5 lg:leading-[50px]">{mouseOrganoids.description}</span>
+                    <div className="text-sm 3xl:text-lg font-extralight py-5 self-center ">
 
                         <p>Mouse Organoids is a project which I had the opportunity to work on for an interview test for a company.</p>
                         <br />
@@ -49,7 +49,6 @@ export const Portfolio = () => {
                             <li>  Calculate the constrast and brightness for each image to improve the visualisation and save the choosen settings in the database</li>
                             <li>  Write the documentation and installation instructions</li>
                         </ul>
-                        <br />
 
                         The feedback was very positive. I was ranked in the top 3 and my version was similar to the one they had built. <br /><br />
                         It was a very formative experience. Indeed, I enjoyed the way I translated a specific need in the medical field into an intuitive product for final users.<br /><br />
