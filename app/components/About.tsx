@@ -6,7 +6,7 @@ export const About = () => {
                     BIO
                 </div>
                 <div className="justify-center flex md:justify-start">
-                    <img src="images/home/photo.jpg" className="w-3/4 md:w-3/5 mx-14 md:mt-44" />
+                    <img src="images/home/photo.jpg" className="w-3/4 md:w-3/5 mx-14 md:mt-44 rounded-full" />
                 </div>
             </div>
             <div className="flex flex-col md:w-1/2 justify-between h-1/2 ">
