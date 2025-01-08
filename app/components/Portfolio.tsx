@@ -8,7 +8,7 @@ export const Portfolio = () => {
 
     const towerOfHanoi: Project = { title: "Tower of Hanoi", description: "“The Ultimate Puzzle: Can You Move the Towers?”", logoPath: "/images/tower_of_hanoi/hanoi_logo.png", githubLink: "https://github.com/Halisia-lab/Tower-of-Hanoi", googlePlayLink: "https://play.google.com/store/apps/details?id=keilis.hanoi_tower&hl=en-US&ah=7B9SDQYOygQ1hJXDiouBqdcJlFY", screenshots: ["/images/tower_of_hanoi/hanoi_picture_1.png", "/images/tower_of_hanoi/hanoi_win.png"] };
     const map2Place: Project = { title: "Map 2 Place", githubLink: "https://github.com/Halisia-lab/m2p-mobile", description: "“Navigate Paris with ease : Discover your parking spot fast”", logoPath: "/images/map_2_place/m2p_logo.png", screenshots: ["/images/map_2_place/m2p_park_info.png", "/images/map_2_place/m2p_picture_2.png", "/images/map_2_place/m2p_zoom_1.png", "/images/map_2_place/m2p_zoom_2.png", "/images/map_2_place/m2p_picture_1.png", "/images/map_2_place/m2p_signaler.png", "/images/map_2_place/m2p_localisation.png"] }
-    const mouseOrganoids: Project = { title: "Mouse Organoids Analysis", githubLink: "https://github.com/Halisia-lab/Organoids", description: "An intuitive web application facilitating the analysis of mouse organoids", logoPath: "/images/mouse_organoids/organoids_logo.png", demoLink: "https://drive.google.com/file/d/1kaxyQws4PEmglbdmiJg_gZGd6d60W3wu/view?usp=sharing",screenshots: [] }
+    const mouseOrganoids: Project = { title: "Mouse Organoids Analysis", githubLink: "https://github.com/Halisia-lab/Organoids", description: "An intuitive web application facilitating the analysis of mouse organoids", logoPath: "/images/mouse_organoids/organoids_logo.png", demoLink: "https://drive.google.com/file/d/1kaxyQws4PEmglbdmiJg_gZGd6d60W3wu/view?usp=sharing", screenshots: [] }
 
     return (
 
@@ -24,24 +24,38 @@ export const Portfolio = () => {
                     <span className="text-xl lg:text-[40px] font-serif py-5 lg:leading-[50px]">{mouseOrganoids.description}</span>
                     <div className="text-md 3xl:text-xl font-extralight py-5 self-center ">
 
-                        <p>Mouse Organoids is a project which I had the opportunity to work on in a test for a company.</p>
+                        <p>Mouse Organoids is a project which I had the opportunity to work on for an interview test for a company.</p>
                         <br />
-                        It was a project that they had to build in the past. I was in charge of imagine and create an interface which would be used by the biomedical team.
-                        <br/><br />
-                    
+
+                        <b>What are Organoids ? </b>
+                        <p>Organoids are miniature, three-dimensional structures grown in the lab that mimic certain aspects of real organs. They are created to replicate some of the features and functions of a specific organ.</p>
+                        <br />
+                        <b>The goal of this project</b>
+                        <p>
+                            As part of the analysis of biomedical images, the superposition of images with segmentations allows the identification and analysis of biological structures such as cells.
+                            This project provide an useful tool for searchers working on organoids, allowing them to quickly visualise and analyse the images from their samples.
+                        </p>
+                        <br />
+                        It was a project that they had to build in the past and I was in charge of imagining and creating an interface which would be used by the biomedical team.
+                        <br /><br />
+
                         Among the different tasks, I had to :<br />
 
                         <ul className="list-disc px-2">
-                            <li>  Choose the design and technologies </li>
-                            <li>  Create the API</li>
-                            <li>  Create the database</li>
-                            <li>Develop the client side</li>
-                        </ul><br />
-                       
-                        The feedback was very positive. I was ranked in the top 3 and my version was pretty similar with how they had done it. <br/><br />
-                        It was a very formative experience. Indeed, I enjoyed the way to translate a specific need in the medical field in a intuitive product for final users.<br/><br/>
+                            <li>  Design an intuitive user interface for images and masks visualisation</li>
+                            <li>  Build the software architecture to integrate the frontend and the backend</li>
+                            <li>  Create and integrate a SQL database to store all images and masks</li>
+                            <li>  Develop the API to retrieve and manage the data of organoids</li>
+                            <li>  Create dynamical and interactive components for the displaying of images</li>
+                            <li>  Calculate the constrast and brightness for each image to improve the visualisation and save the choosen settings in the database</li>
+                            <li>  Write the documentation and installation instructions</li>
+                        </ul>
+                        <br />
+
+                        The feedback was very positive. I was ranked in the top 3 and my version was similar to the one they had built. <br /><br />
+                        It was a very formative experience. Indeed, I enjoyed the way I translated a specific need in the medical field into an intuitive product for final users.<br /><br />
                         <b>You can explore the different features by watching the demo ! </b>
-                    
+
                     </div>
 
 
@@ -75,7 +89,7 @@ export const Portfolio = () => {
 
 
             </div>
-            
+
             {/*  TOWER OF HANOI */}
             <div className="lg:grid flex-col flex justify-center lg:flex-row lg:grid-cols-4 grid-rows-3 h-3/4 w-screen pb-16 lg:pt-20 px-10 gap-x-7 gap-y-7 text-white tracking-widest">
 
@@ -158,7 +172,7 @@ export const Portfolio = () => {
                 </div>
             </div>
 
-            
+
 
         </div>
     )
