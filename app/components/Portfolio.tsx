@@ -24,7 +24,6 @@ export const Portfolio = () => {
                     <div className="text-sm 3xl:text-lg font-extralight py-5 self-center ">
                         <b>Context </b>
                         <p>
-                            As part of the analysis of biomedical images, the superposition of images with segmentations allows the identification and analysis of biological structures such as cells.
                             This project provides a useful tool for researchers working on organoids, allowing them to quickly visualise and analyse the images from their samples.
                         </p> <br />
                         <p>
@@ -37,7 +36,7 @@ export const Portfolio = () => {
                         <ul className="list-disc px-2">
                             <li>  Design an intuitive user interface for images and masks visualisation</li>
                             <li>  Build the software architecture to integrate the frontend and the backend</li>
-                            <li>  Create and integrate a SQL database to store all images and masks</li>
+                            <li>  Create and integrate a SQL database to store all images</li>
                             <li>  Develop the API to retrieve and manage the data of organoids</li>
                             <li>  Create dynamical and interactive components for the displaying of images</li>
                             <li>  Calculate the constrast and brightness for each image to improve the visualisation and save the choosen settings in the database</li>
@@ -95,7 +94,7 @@ export const Portfolio = () => {
                         <br />
                         <p>It is a well-known puzzle game, and while I have implemented the core features, my goal is to introduce innovative elements to make the game more challenging and unique.</p>
                         <br />
-                        <p>The app is in the process of being deployed on Google Play, and I am continuously working on further development.</p>
+                        <p>The app has been deployed on Google Play, and I am continuously working on further development.</p>
                     </div>
 
                 </div>
